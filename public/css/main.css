@@ -1,0 +1,91 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+ul#mustat, ul#valkeat {
+	width: 500px;
+	height: 50px;
+	margin-top: 8px;
+}
+
+ul#mustat li, ul#valkeat li {
+	display: inline-block;
+}
+
+ul#mustat img.notSelected, ul#valkeat img.notSelected {
+	border-width: 0px;
+	background-color: #fff;
+}
+ul#mustat img.selected, ul#valkeat img.selected {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #de2c2c;
+	background-color: #f97575;
+}
+
+div.notRoundedSq {
+	border-width: 0px;
+	border-style: solid;
+	border-color: red;
+	
+}
+
+div.roundedSq {
+	border-width: 2px;
+	border-style: solid;
+	border-color: red;
+		
+}
+
+#lisatiedot {
+	margin: auto;
+	margin-top: 60px;
+	margin-left: -40px;
+}
+  
+@media (max-width: 990px) {
+	#lisatiedot {
+		margin-top: 0px;
+
+	}
+  
+}
+
+
+@media (max-width: 1200px) {
+	#lisatiedot {
+		margin-left: 0px;
+
+	}
+  
+}
+
+   div.sqHighLight {
+	  -webkit-box-shadow: inset 0 0 3px 3px yellow;
+	  -moz-box-shadow: inset 0 0 3px 3px yellow;
+	  box-shadow: inset 0 0 3px 3px yellow;  
+
+
+
+   }
+
+   div.moveHighLight {
+	  -webkit-box-shadow: inset 0 0 3px 3px blue;
+	  -moz-box-shadow: inset 0 0 3px 3px blue;
+	  box-shadow: inset 0 0 3px 3px blue;  
+
+   }
+
+
+
+
+
+
+
+
+
+
+

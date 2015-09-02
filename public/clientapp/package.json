@@ -1,0 +1,17 @@
+{
+  "name": "Shakkiratkonta",
+  "version": "0.0.1",
+  "author": "Nollaversio IT",
+  "description": "r",
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "browserify": "latest",
+    "watchify": "latest"
+  },
+  "scripts": {
+    "build-js": "browserify js/main.js > build/js/findem.js",
+    "watch-js": "watchify js/main.js -o build/js/findem.js -v"
+  }
+}
